@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "title": "lista 1",
+      "deadline": "08/05/2000",
+      "pts": "0.1"
+    },
+    {
+      "title": "lista 2",
+      "deadline": "12/05/2012",
+      "pts": "0.1"
+    },
+    {
+      "title": "lista 3",
+      "deadline": "08/05/6924",
+      "pts": "0.1"
+    },
+    {
+      "title": "lista 4",
+      "deadline": "12/12/1212",
+      "pts": "0.1"
+    }
+    
+  ]
+}

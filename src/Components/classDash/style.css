@@ -1,0 +1,29 @@
+:root {
+  --darkBlue: #1c4c74;
+  --neutralBlue: #2973ad;
+  --lightBlue: #349ce9;
+}
+
+.class {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--neutralBlue);
+  width: 100%;
+  border-radius: 10px;
+  padding: 12px 12px 6px;
+  color: white;
+  gap: 10px;
+}
+
+.class h1 {
+  font-size: larger;
+}
+
+.class span {
+  font-size: small;
+}
+
+.class:hover {
+  color: white;
+  background-color: var(--darkBlue);
+}

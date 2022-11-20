@@ -1,0 +1,48 @@
+:root {
+  --darkBlue: #1c4c74;
+  --neutralBlue: #2973ad;
+  --lightBlue: #349ce9;
+}
+
+.messageDash {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  border-bottom: 1px solid gray;
+  padding: 8px;
+  color: rgb(44, 44, 44);
+}
+
+.messageDash > .perfil {
+  width: 55px;
+  height: 55px;
+  border-radius: 30px;
+  border: 3px solid var(--darkBlue);
+}
+
+.messageDash:hover {
+  background-color: darkgray;
+  color: rgb(44, 44, 44);
+}
+
+.txt {
+  font-size: 14px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 320px;
+}
+
+.msgBody {
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.time {
+  justify-self: end;
+}
